@@ -6,22 +6,22 @@ Challenge: 100 days of learning algorithms
 I'm primarily doing [Data Structures and Algorithms specialization](https://www.coursera.org/specializations/data-structures-algorithms? "Data Structures and Algorithms") on Coursera from UCSD. I won't publish my solutions to problem assignments because it violates [Coursera Honor Code](https://learner.coursera.help/hc/en-us/articles/209818863-Coursera-Honor-Code "Cousera Honor Code") but I want to check my progress.
 
 ## Course 1: [Algorithmic Toolbox](https://www.coursera.org/learn/algorithmic-toolbox?specialization=data-structures-algorithms)
-- [ ] Greedy Algorithms
-- [ ] Divide and Conquer Algorithms
+- [x] Greedy Algorithms
+- [x] Divide and Conquer Algorithms
 - [ ] Dynamic programming
 
 ## Course 2: [Data Structures](https://www.coursera.org/learn/data-structures?specialization=data-structures-algorithms)
-- [ ] Basic Data Structures: Arrays
-- [ ] Basic Data Structures: Singly-Linked Lists
-- [ ] Basic Data Structures: Doubly-Linked Lists
-- [ ] Basic Data Structures: Stack
-- [ ] Basic Data Structures: Queues
-- [ ] Basic Data Structures: Trees and tree traversal
-- [ ] Dynamic Arrays and amortized analysis
-- [ ] Priority Queues
-- [ ] Disjoint Sets
-- [ ] Complete Binary Trees
-- [ ] Max-Heap and Min-Heap
+- [x] Basic Data Structures: Arrays
+- [x] Basic Data Structures: Singly-Linked Lists
+- [x] Basic Data Structures: Doubly-Linked Lists
+- [x] Basic Data Structures: Stack
+- [x] Basic Data Structures: Queues
+- [x] Basic Data Structures: Trees and tree traversal
+- [x] Dynamic Arrays and amortized analysis
+- [x] Priority Queues
+- [x] Disjoint Sets
+- [x] Complete Binary Trees
+- [x] Max-Heap and Min-Heap
 - [ ] Hash Tables and hash functions
 - [ ] Binary Search Trees
 - [ ] AVL Trees
