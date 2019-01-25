@@ -3,58 +3,11 @@ Goal: getting good algorithmic skills both theoretical and practical.
 
 Challenge: 100 days of learning algorithms
 
-I'm primarily doing [Data Structures and Algorithms specialization](https://www.coursera.org/specializations/data-structures-algorithms? "Data Structures and Algorithms") on Coursera from UCSD. I won't publish my solutions to problem assignments because it violates [Coursera Honor Code](https://learner.coursera.help/hc/en-us/articles/209818863-Coursera-Honor-Code "Cousera Honor Code") but I want to check my progress.
+## Sprint #1 (Jan 25 - Feb 07)
+### **Theory:**
+- [ ] Time Complexity
+- [ ] Arrays
 
-## Course 1: [Algorithmic Toolbox](https://www.coursera.org/learn/algorithmic-toolbox?specialization=data-structures-algorithms)
-- [x] Greedy Algorithms
-- [x] Divide and Conquer Algorithms
-- [ ] Dynamic programming
+### **Practice:**
 
-## Course 2: [Data Structures](https://www.coursera.org/learn/data-structures?specialization=data-structures-algorithms)
-- [x] Basic Data Structures: Arrays
-- [x] Basic Data Structures: Singly-Linked Lists
-- [x] Basic Data Structures: Doubly-Linked Lists
-- [x] Basic Data Structures: Stack
-- [x] Basic Data Structures: Queues
-- [x] Basic Data Structures: Trees and tree traversal
-- [x] Dynamic Arrays and amortized analysis
-- [x] Priority Queues
-- [x] Disjoint Sets
-- [x] Complete Binary Trees
-- [x] Max-Heap and Min-Heap
-- [ ] Hash Tables and hash functions
-- [ ] Binary Search Trees
-- [ ] AVL Trees
-
-## Course 3: [Algorithms on Graphs](https://www.coursera.org/learn/algorithms-on-graphs?specialization=data-structures-algorithms)
-- [ ] Undirected graphs
-- [ ] Directed graphs
-- [ ] Breadth-First Search and shortest path
-- [ ] Dijkstra's Algorithm
-- [ ] Bellman-Ford's algorithm
-- [ ] Minimum Spanning Trees
-- [ ] Kruskal's Algorithm
-- [ ] Prim's Algorithm
-- [ ] Bidirectional Search
-- [ ] A* Algorithm
-
-## Course 4: [Algorithms on Strings](https://www.coursera.org/learn/algorithms-on-strings?specialization=data-structures-algorithms)
-- [ ] Suffix Trees (Tries)
-- [ ] Burrows-Wheeler Transform
-- [ ] Suffix Arrays
-- [ ] Knuth–Morris–Pratt Algorithm
-- [ ] LCP Array
-
-## Course 5: [Advanced Algorithms and Complexity](https://www.coursera.org/learn/advanced-algorithms-and-complexity)
-- [ ] Network Flows
-- [ ] The Ford–Fulkerson Algorithm
-- [ ] The Edmonds–Karp Algorithm
-- [ ] Bipartite Matching
-- [ ] Image Segmentation
-- [ ] Linear Programming
-- [ ] NP-complete Problems
-
-## Course 6: [Genome Assembly Programming Challenge](https://www.coursera.org/learn/assembling-genomes)
-- [ ] 2011 European E. coli outbreak
-- [ ] Assembling Genomes Using de Bruijn Graphs
-- [ ] Genome Assembly Faces Real Sequencing Data
+### WorkLog
