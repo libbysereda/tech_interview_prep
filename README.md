@@ -18,8 +18,8 @@
 4. [LeetCode](https://leetcode.com/problemset/algorithms/)
 
 ## Prerequisites
-- [ ] Git
-- [ ] Testing
+- [x] Git
+- [x] Testing
 
 ## Modules
 - [ ] Time Complexity
