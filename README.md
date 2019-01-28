@@ -45,4 +45,17 @@
 - [ ] Approximation Algorithms
 
 ## WorkLog
+Track Progress:
+| [1](day-1) | 2 | 
 
+#### Day 1 (*Jan 28, Mon*)
+*Plan*: 
+
+Theory: 
+- [ ] Time Complexity
+- [ ] Make git cheat sheet
+
+Practice:
+- [ ] [TDD workshop in C++](https://github.com/boostcon/cppnow_presentations_2014/tree/master/files/test_driven)
+
+ 
