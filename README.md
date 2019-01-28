@@ -46,7 +46,7 @@
 
 ## WorkLog
 Track Progress:
-| [1](Day-1) | 2 | 
+| [1](day-1) | 2 | 
 
 #### Day 1 
 (*Jan 28, Mon*)
