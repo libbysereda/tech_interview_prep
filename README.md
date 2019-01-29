@@ -17,6 +17,12 @@
 3. [HackerRank Interview Preparation Kit](https://www.hackerrank.com/interview/interview-preparation-kit)
 4. [LeetCode](https://leetcode.com/problemset/algorithms/)
 
+**Daily plan**:
+1. Choose one module from the list below.
+2. Watch lectures\take notes
+3. Solve relevant problems on IntervewBit\HackerRank\LeetCode
+
+Try to spend at least one hour watching lectures and one hour solving problems.
 
 ## Modules
 Track Process:
