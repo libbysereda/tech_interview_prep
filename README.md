@@ -70,7 +70,7 @@ Theory
 - [x] [Big Oh Notation](https://youtu.be/vsgrJrphEHo?list=PLpPXw4zFa0uKKhaSz87IowJnOTzh9tiBk)
 - [x] [Examples of Big Oh Notation](https://youtu.be/66ovUEE0bQI?list=PLpPXw4zFa0uKKhaSz87IowJnOTzh9tiBk)
 
-### Day 1
+#### Day 1
 (*Jan 30, Wed*)
 Theory
 - [x] Time Complexity lectures and notes from InterviewBit
