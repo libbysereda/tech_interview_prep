@@ -64,7 +64,9 @@ Track Process:
 
 #### Day 0
 (*Jan 29, Tue*)
+
 Theory
+
 *Dr. Rob Edwards from San Diego State University lectures;*
 - [x] [Time Complexity](https://youtu.be/IgeJmTKQlKs?list=PLpPXw4zFa0uKKhaSz87IowJnOTzh9tiBk)
 - [x] [Big Oh Notation](https://youtu.be/vsgrJrphEHo?list=PLpPXw4zFa0uKKhaSz87IowJnOTzh9tiBk)
@@ -72,6 +74,7 @@ Theory
 
 #### Day 1
 (*Jan 30, Wed*)
+
 Theory
 - [x] Time Complexity lectures and notes from InterviewBit
 
