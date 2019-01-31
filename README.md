@@ -80,3 +80,9 @@ Theory
 
 Practice
 - [x] Solved 4 problems (InterviewBit)
+
+#### Day 2
+(*Jan 31, Thu*)
+
+Practice
+- [x] Practised time complexity questions from IntervewBit
