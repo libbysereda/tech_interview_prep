@@ -20,7 +20,7 @@
 **Daily plan**:
 1. Choose one module from the list below.
 2. Watch lectures\take notes
-3. Solve relevant problems on IntervewBit\HackerRank\LeetCode
+3. Solve relevant problems on InterviewBit\HackerRank\LeetCode
 
 Try to spend at least one hour watching lectures and one hour solving problems.
 
@@ -86,3 +86,12 @@ Practice
 
 Practice
 - [x] Practised time complexity questions from InterviewBit
+
+#### Day 3
+(*Feb 1, Fri*)
+
+Theory:
+- [ ] Start with Arrays lectures
+
+Practice:
+- [ ] Solve arrays problem on HackerRank and LeetCode
