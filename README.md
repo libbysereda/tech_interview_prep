@@ -108,3 +108,5 @@ Theory:
 - [ ] Pointers: what I know about them and how they related to arrays
 - [ ] What complex data structures implemented using arrays
 - [ ] Solve interview problems using arrays
+- [ ] Combinatorics
+- [ ] Basic Probability
