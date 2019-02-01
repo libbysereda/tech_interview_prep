@@ -94,3 +94,17 @@ Practice
 
 Theory:
 - [x] Arrays and pointers
+
+#### Day 4
+(*Feb 2, Sat*)
+
+*ToDo*
+- [ ] Revisit notes on arrays:
+- [ ] What is an array
+- [ ] What I know about them
+- [ ] Dynamically allocated arrays
+- [ ] Multidimensional arrays
+- [ ] Time complexity
+- [ ] Pointers: what I know about them and how they related to arrays
+- [ ] What complex data structures implemented using arrays
+- [ ] Solve interview problems using arrays 
