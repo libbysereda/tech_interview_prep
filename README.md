@@ -98,15 +98,4 @@ Theory:
 #### Day 4
 (*Feb 2, Sat*)
 
-*ToDo*
-- [ ] Revisit notes on arrays
-- [ ] What is an array
-- [ ] What I know about them
-- [ ] Dynamically allocated arrays
-- [ ] Multidimensional arrays
-- [ ] Time complexity
-- [ ] Pointers: what I know about them and how they related to arrays
-- [ ] What complex data structures implemented using arrays
-- [ ] Solve interview problems using arrays
-- [ ] Combinatorics from coding interview university
-- [ ] Basic Probability from coding interview university
+- [x] Factorial, permutations and n choose k revisited. 
