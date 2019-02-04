@@ -98,4 +98,10 @@ Theory:
 #### Day 4
 (*Feb 2, Sat*)
 
-- [x] Factorial, permutations and n choose k revisited. 
+- [x] Factorial, permutations and n choose k revisited.
+
+#### Day 5
+(*Feb 4, Mon*)
+
+Practice:
+- [x] Started to solve programming problems with arrays
