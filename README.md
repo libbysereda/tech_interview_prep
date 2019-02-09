@@ -19,6 +19,9 @@
 
 1 hour: watching lectures;
 
+
+Once a week review theory notes
+
 ## Modules
 Track Process:
 
