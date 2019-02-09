@@ -60,7 +60,7 @@ Track Process:
 
 ***Solved:***
 
-*February:*
+February
 
 ***Done with help***:
 
