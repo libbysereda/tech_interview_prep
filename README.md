@@ -8,6 +8,7 @@
 2. [Princeton Algorithms II](https://www.coursera.org/learn/algorithms-part2)
 3. [Dr. Rob Edwards from San Diego State University](https://www.youtube.com/watch?v=zgCnMvvw6Oo&list=PLpPXw4zFa0uKKhaSz87IowJnOTzh9tiBk)
 4. [Coding Interview University](https://github.com/jrenjenka/coding-interview-university)
+5. [Booksite](https://algs4.cs.princeton.edu/home/)
 
 *Practice*:
 1. [LeetCode](https://leetcode.com/problemset/algorithms/)
