@@ -79,8 +79,7 @@ February
 
 February
 
-*11.02.2019, Mon:* Union-Find API and overview;
-
-*Next*: Quick Union;
+- [x] Union-Find API and overview *11.02.2019, Mon*
+- [ ] Quick Union;
 
 ***Need more information:***
