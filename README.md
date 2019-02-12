@@ -76,5 +76,12 @@ February
 ### Theory
 
 ***Understood:***
+**February:**
+
+*11.02.2019, Mon:*
+
+Union-Find API and overview;
+
+*Next*: Quick Union;
 
 ***Need more information:***
