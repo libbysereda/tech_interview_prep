@@ -310,7 +310,9 @@ Track Process:
 February:
 
 25:
+
 [#727 - arrays](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/727/);
+
 [Rotate array - arrays](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/646/) - not efficient solution;
 
 ***Done with help***:
@@ -318,10 +320,14 @@ February:
 ***Done by myself but need attention:***
 
 ***Need to be done:***
+
 February:
+
 25: [121. Best Time to Buy and Sell Stock - Kadane's Algorithm](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
 ***To do next:***
+
+[Rotate array - arrays](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/646/) - try to find more efficient solution and in-place solution;
 
 ### Theory
 
