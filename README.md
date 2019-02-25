@@ -309,7 +309,9 @@ Track Process:
 
 February:
 
-25: [#727 - arrays](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/727/),
+25:
+[#727 - arrays](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/727/);
+[Rotate array - arrays](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/646/) - not efficient solution;
 
 ***Done with help***:
 
