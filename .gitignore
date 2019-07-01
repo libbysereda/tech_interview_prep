@@ -1,0 +1,17 @@
+# log file
+*.log
+
+# DS files
+*.DS_Store
+
+# executables
+*.o
+
+# tutor solutions
+**tutor_solutions/
+
+# Makefile
+**/Makefile
+
+# txt test files
+*.txt
