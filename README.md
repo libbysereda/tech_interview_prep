@@ -5,7 +5,6 @@
 1. Data structure: take notes, draw concepts
 2. Algorithms for this data structure: take notes, draw concepts
 3. Implement data structure and its algorithms from scratch
-4. Solve 3 problems on LeetCode: 1 easy, 1 medium, 1 hard
 
 **Implementation routine:**
 1. Read problem specification
