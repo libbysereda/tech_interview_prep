@@ -7,6 +7,7 @@ template <typename T>
 class DynamicArray {
 public:
   DynamicArray();
+  DynamicArray(size_t capacity);
   size_t size();
   size_t capacity();
   bool empty();
@@ -28,6 +29,22 @@ public:
 private:
 
 };
+
+void testConstructor() {
+  {
+    DynamicArray empty;
+    ASSERT_EQUAL(empty.size(), 0u);
+    ASSERT_EQUAL(empty.capacity(), 0u);
+    ASSERT(empty.begin() == empty.end());
+  }
+  {
+    DynamicArray da(5);
+    ASSERT_EQUAL(da.size(), 5u);
+    ASSERT_EQUAL(da.capacity(), 5u);
+    ASSERT(da.begin != da.end());
+    ASSERT(da.end() == da.begin() + 5);
+  }
+}
 
 int main() {
 
