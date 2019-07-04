@@ -20,7 +20,7 @@
 4. Profiler
 
 ### Modules:
-- [ ] Array
+- [ ] Array *In progress*
 - [ ] Stack 
 - [ ] Queue
 - [ ] Deque
