@@ -78,7 +78,7 @@ T& dynamic_array<T>::back() const {
 }
 
 template <typename T>
-void dynamic_array<T>::insert(const T& value) {}
+void dynamic_array<T>::insert(size_t index, const T& value) {}
 
 template <typename T>
 void dynamic_array<T>::delete_value(size_t index) {}
@@ -96,7 +96,3 @@ size_t dynamic_array<T>::find(const T& value) const {
 
 template <typename T>
 dynamic_array<T>::~dynamic_array() {}
-
-int main() {
-  return 0;
-}

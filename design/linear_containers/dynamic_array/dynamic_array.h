@@ -24,7 +24,7 @@ public:
   void push_back(const T& value);
   T& pop_back();
   T& back() const;
-  void insert(const T& value);
+  void insert(size_t index, const T& value);
   void delete_value(size_t index);
   void remove(const T& value);
   void resize(size_t new_size);
