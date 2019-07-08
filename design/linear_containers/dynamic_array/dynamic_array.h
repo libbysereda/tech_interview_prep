@@ -120,6 +120,9 @@ void dynamic_array<T>::push_back(const T& value) {
 
 template <typename T>
 void dynamic_array<T>::insert(size_t index, const T& value) {
+  T& old_value = data_[index];
+  data_[index] = value;
+
 }
 
 template <typename T>
@@ -129,17 +132,27 @@ T& dynamic_array<T>::pop_back() {
 }
 
 template <typename T>
-void dynamic_array<T>::delete_value(size_t index) {}
+void dynamic_array<T>::delete_value(size_t index) {
+
+}
+
+// remove duplicates including the first 
+template <typename T>
+void dynamic_array<T>::remove(const T& value) {
+
+}
 
 template <typename T>
-void dynamic_array<T>::remove(const T& value) {}
-
-template <typename T>
-void dynamic_array<T>::resize(size_t new_size) {}
+void dynamic_array<T>::resize(size_t new_size) {
+  size_ = new_size;
+}
 
 template <typename T>
 size_t dynamic_array<T>::find(const T& value) const {
-  return 0;
+  for (size_t i = 0; i < size_; i++) {
+    if (data_[i] == value) return i;
+  }
+  return -1;
 }
 
 template <typename T>
