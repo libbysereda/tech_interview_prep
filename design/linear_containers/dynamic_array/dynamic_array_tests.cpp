@@ -100,7 +100,7 @@ void test_at_and_index_operator() {
   da[0] = 3;
   ASSERT_EQUAL(da[0], 3);
 
-  ASSERT_EQUAL(da.at(0), 0);
+  ASSERT_EQUAL(da.at(0), 3);
   try {
     da.at(4);
   } catch (const exception& e) {
@@ -112,7 +112,7 @@ void test_begin_end_it() {
   dynamic_array<int> da(5);
   for (int i = 0; i < 5; i++) {
     da[i] = i;
-    ASSERT_EQUAL(da.end(), (da.begin() + i + 1));
+    ASSERT_EQUAL(da.end(), (da.begin() + da.size()));
   }
   auto it = da.begin();
 
@@ -251,10 +251,6 @@ void test_find() {
   ASSERT_EQUAL(-1, da.find(7));
 }
 
-void test_destructor() {
-
-}
-
 int main() {
   TestRunner tr;
   RUN_TEST(tr, test_constructor);
@@ -264,11 +260,10 @@ int main() {
   RUN_TEST(tr, test_begin_end_it);
   RUN_TEST(tr, test_push_back);
   RUN_TEST(tr, test_pop_back);
-  RUN_TEST(tr, test_back);
   RUN_TEST(tr, test_insert);
   RUN_TEST(tr, test_delete_value);
   RUN_TEST(tr, test_remove);
   RUN_TEST(tr, test_resize);
   RUN_TEST(tr, test_find);
-  RUN_TEST(tr, test_destructor);
+  RUN_TEST(tr, test_back);
 }
