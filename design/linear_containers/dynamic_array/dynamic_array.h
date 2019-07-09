@@ -105,21 +105,23 @@ const T* dynamic_array<T>::end() const {
 
 template <typename T>
 void dynamic_array<T>::push_back(const T& value) {
-  if (size_ >= capacity_) update_capacity();
+  update_capacity();
   data_[size_++] = value;
 }
 
 template <typename T>
 void dynamic_array<T>::insert(size_t index, const T& value) {
-  /*for (size_t i = index; i < size_; i++) {
-    if (size_ >= capacity_) {
-      update_capacity();
-      size_++;
-    }
-    T& old_value = data_[index];
-    data_[index] = value;
-    data_[index];
-  }*/
+  update_capacity();
+  ++size_;
+
+  T old_value = move(data_[index]);
+  data_[index++] = value;
+
+  for (; index < size_; index++) {
+    T cur_value = move(old_value);
+    old_value = move(data_[index]);
+    data_[index] = cur_value;
+  }
 }
 
 template <typename T>
@@ -168,13 +170,15 @@ T& dynamic_array<T>::back() const {
 
 template <typename T>
 void dynamic_array<T>::update_capacity() {
-  capacity_ = capacity_ == 0 ? 1 : capacity_ * 2;
-  T* new_data = new T[capacity_];
+  if (size_ >= capacity_) {
+    capacity_ = capacity_ == 0 ? 1 : capacity_ * 2;
+    T* new_data = new T[capacity_];
 
-  for (size_t i = 0; i < size_; i++) {
-    new_data[i] = data_[i];
+    for (size_t i = 0; i < size_; i++) {
+      new_data[i] = data_[i];
+    }
+
+    delete[] data_;
+    data_ = new_data;
   }
-
-  delete[] data_;
-  data_ = new_data;
 }
