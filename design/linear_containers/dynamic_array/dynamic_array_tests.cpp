@@ -157,12 +157,20 @@ void test_insert() {
     ASSERT_EQUAL(da.size(), 6u);
   }
 
+
   // insert at the end
   da.insert(5, 11);
   {
-    vector<int> expected = {0, 1, 2, 10, 3, 4, 11};
+    vector<int> expected = {0, 1, 2, 10, 3, 11, 4};
     ASSERT_EQUAL(expected, get_result_vector(da));
     ASSERT_EQUAL(da.size(), 7u);
+  }
+
+  da.insert(7, 12);
+  {
+    vector<int> expected = {0, 1, 2, 10, 3, 11, 4, 12};
+    ASSERT_EQUAL(expected, get_result_vector(da));
+    ASSERT_EQUAL(da.size(), 8u);
   }
 }
 
