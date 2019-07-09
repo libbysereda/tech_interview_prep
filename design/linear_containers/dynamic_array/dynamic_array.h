@@ -39,9 +39,10 @@ public:
   //void operator=
 
 private:
-  size_t size_ = 0;
   size_t capacity_ = 0;
   T* data_ = nullptr;
+  size_t size_ = 0;
+  void update_capacity();
 };
 
 template <typename T>
@@ -104,25 +105,21 @@ const T* dynamic_array<T>::end() const {
 
 template <typename T>
 void dynamic_array<T>::push_back(const T& value) {
-  if (size_ >= capacity_) {
-    capacity_ = capacity_ == 0 ? 1 : capacity_ * 2;
-    T* new_data = new T[capacity_];
-
-    for (size_t i = 0; i < size_; i++) {
-      new_data[i] = data_[i];
-    }
-
-    delete[] data_;
-    data_ = new_data;
-  }
+  if (size_ >= capacity_) update_capacity();
   data_[size_++] = value;
 }
 
 template <typename T>
 void dynamic_array<T>::insert(size_t index, const T& value) {
-  T& old_value = data_[index];
-  data_[index] = value;
-
+  /*for (size_t i = index; i < size_; i++) {
+    if (size_ >= capacity_) {
+      update_capacity();
+      size_++;
+    }
+    T& old_value = data_[index];
+    data_[index] = value;
+    data_[index];
+  }*/
 }
 
 template <typename T>
@@ -133,13 +130,22 @@ T& dynamic_array<T>::pop_back() {
 
 template <typename T>
 void dynamic_array<T>::delete_value(size_t index) {
-
+  for (; index < size_; index++) {
+    data_[index] = data_[index + 1];
+  }
+  --size_;
 }
 
-// remove duplicates including the first 
+// remove duplicates including the first
 template <typename T>
 void dynamic_array<T>::remove(const T& value) {
-
+  size_t prev = 0;
+  for (size_t next = 0; next < size_; next++) {
+    if (data_[next] != value) {
+      data_[prev++] = data_[next];
+    }
+  }
+  size_ = prev;
 }
 
 template <typename T>
@@ -158,4 +164,17 @@ size_t dynamic_array<T>::find(const T& value) const {
 template <typename T>
 T& dynamic_array<T>::back() const {
   return data_[size_ - 1];
+}
+
+template <typename T>
+void dynamic_array<T>::update_capacity() {
+  capacity_ = capacity_ == 0 ? 1 : capacity_ * 2;
+  T* new_data = new T[capacity_];
+
+  for (size_t i = 0; i < size_; i++) {
+    new_data[i] = data_[i];
+  }
+
+  delete[] data_;
+  data_ = new_data;
 }
