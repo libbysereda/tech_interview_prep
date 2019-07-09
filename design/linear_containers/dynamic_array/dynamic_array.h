@@ -137,7 +137,6 @@ void dynamic_array<T>::delete_value(size_t index) {
   --size_;
 }
 
-// remove duplicates including the first
 template <typename T>
 void dynamic_array<T>::remove(const T& value) {
   size_t prev = 0;
