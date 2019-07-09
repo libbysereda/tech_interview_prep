@@ -36,7 +36,6 @@ public:
 
   size_t find(const T& value) const;
   T& back() const;
-  //void operator=
 
 private:
   size_t capacity_ = 0;
