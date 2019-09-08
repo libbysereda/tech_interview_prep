@@ -1,7 +1,6 @@
 # Technical Interview Preparation Plan
-## Part 1: Learn data structures and algorithms from scratch 
-**Time:** 3 months (July 2019 - September 2019)
-### How To: 
+## Learn data structures and algorithms from scratch
+### How To:
 1. Data structure: take notes, draw concepts
 2. Algorithms for this data structure: take notes, draw concepts
 3. Implement data structure and its algorithms from scratch
@@ -16,12 +15,12 @@
 ### Tools:
 1. Unit testing system
 2. Valgrind
-3. Debugging 
+3. Debugging
 4. Profiler
 
 ### Modules:
-- [ ] Array *In progress*
-- [ ] Stack 
+- [ ] Array
+- [ ] Stack
 - [ ] Queue
 - [ ] Deque
 - [ ] Linked List
@@ -39,8 +38,7 @@
 - [ ] Linear Programming
 - [ ] NP-complete
 
-## Part 2: Practice problem solving on LeetCode
-**Time:** 3 months (October 2019 - December 2019)
+## Practice problem solving on LeetCode
 ### How To:  
 1. Learn technique's concepts if it's new: take notes, draw concepts
 2. Solve 15 problems for each module\technique: 5 easy, 5 medium, 5 hard
@@ -55,7 +53,7 @@
 7. Write solution in IDE
 8. Test it
 
-### Techniques: 
+### Techniques:
 - [ ] Two Pointers
 - [ ] Backtracking
 - [ ] Sliding Window
@@ -96,9 +94,7 @@
 - [ ] Topological Sort
 - [ ] Map
 
-## Part 3: Mock Interviews: practice on InterviewBit and participate in KickStart Coding Competition
-**Time:** 3 months (January 2020 - March 2020)
+## Mock Interviews: practice on InterviewBit and participate in KickStart Coding Competition
 - [ ] Mock Interviews
-- [ ] DS&Algorithms Specialisation on Coursera: 100 problems
 - [ ] InterviewBit: practice for mock interviews
 - [ ] KickStart Rounds
