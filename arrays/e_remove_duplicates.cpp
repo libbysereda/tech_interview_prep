@@ -19,7 +19,7 @@ static const auto _____ = []()
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
-      if (nums.size() == 0) return 0;
+      if (nums.size() < 2) return nums.size();
       int slow = 0;
       for (int fast = 1; fast < nums.size(); ++fast) {
         if (nums[slow] != nums[fast]) nums[++slow] = nums[fast];
