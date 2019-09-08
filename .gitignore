@@ -7,8 +7,8 @@
 # executables
 *.o
 
-# tutor solutions
-**tutor_solutions/
+# best solutions
+**best_solutions/
 
 # Makefile
 **/Makefile
