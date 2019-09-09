@@ -1,3 +1,8 @@
+## Total solved:
+**Easy:** 3 (goal: 120)
+**Medium:** (goal: 120)
+**Hard:** (goal: 60)
+
 ## Solved
 September 8: [26](https://leetcode.com/problems/remove-duplicates-from-sorted-array)
 
