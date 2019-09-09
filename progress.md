@@ -1,6 +1,8 @@
 ## Total solved:
 **Easy:** 3 (goal: 120)
+
 **Medium:** (goal: 120)
+
 **Hard:** (goal: 60)
 
 ## Solved
