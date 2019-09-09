@@ -6,4 +6,4 @@ September 8: [26](https://leetcode.com/problems/remove-duplicates-from-sorted-ar
 ## Can't solve on my own
 
 ## Could do better
-September 9: [905](https://leetcode.com/problems/sort-array-by-parity/solution/)
+September 9: [905](https://leetcode.com/problems/sort-array-by-parity/solution/) - in-place algorithm using quicksort
