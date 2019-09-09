@@ -16,7 +16,7 @@ static const auto io_sync_off = []() {
 
 class Solution {
 public:
-  // brute force approach - Runtime: 96 ms, Memory Usage: 13.4 MB
+  // Slow solution O(n log n) - Runtime: 96 ms, Memory Usage: 13.4 MB
   vector<int> sortedSquares(vector<int>& A) {
     size_t length = A.size();
 
