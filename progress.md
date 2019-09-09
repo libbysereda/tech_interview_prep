@@ -6,4 +6,6 @@ September 8: [26](https://leetcode.com/problems/remove-duplicates-from-sorted-ar
 ## Can't solve on my own
 
 ## Could do better
-September 9: [905](https://leetcode.com/problems/sort-array-by-parity/solution/) - in-place algorithm using quicksort
+September 9:
+- [905](https://leetcode.com/problems/sort-array-by-parity/solution/) - in-place algorithm using quicksort; Solved [ ]
+- [977](https://leetcode.com/problems/squares-of-a-sorted-array/) - in-place algorithm using two pointers; Solved [ ]
