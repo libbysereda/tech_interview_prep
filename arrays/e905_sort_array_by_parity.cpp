@@ -12,7 +12,21 @@ static const auto io_sync_off = []() {
 
 class Solution {
 public:
+  // using two pointers approach: in-place algorithm
   vector<int> sortArrayByParity(vector<int>& A) {
+    size_t length = A.size();
+
+    for (size_t slow, fast = 0; fast < length; fast++) {
+      if (A[fast] % 2 == 0) {
+        swap(A[slow++], A[fast]);
+      }
+    }
+
+    return A;
+  }
+
+  // additional memory usage
+  vector<int> sortArrayByParity1(vector<int>& A) {
     vector<int> first;
     vector<int> last;
 
@@ -62,7 +76,7 @@ void testSolution() {
   }
   {
     vector<int> v = {3, 1, 2};
-    vector<int> expected = {2, 3, 1};
+    vector<int> expected = {2, 1, 3};
     ASSERT_EQUAL(s.sortArrayByParity(v), expected);
   }
 }
