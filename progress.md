@@ -14,6 +14,8 @@ September 9:
 - [977](https://leetcode.com/problems/squares-of-a-sorted-array/) - in-place algorithm using two pointers; Solved [ ]
 
 ## Solved with help
+September 10:
+- [905](https://leetcode.com/problems/sort-array-by-parity/solution/) - in-place algorithm using quicksort; Solved [x]
 
 ## Can't solve
 
