@@ -13,6 +13,8 @@ static const auto io_sync_off = []() {
 class Solution {
 public:
   // using two pointers approach: in-place algorithm, swap only if necessary
+  // Runtime: 24 ms
+  // Memory Usage: 9.7 MB
   vector<int> sortArrayByParity(vector<int>& A) {
     int l = 0, r  = A.size() - 1;
 
@@ -29,6 +31,8 @@ public:
   }
 
   // using two pointers approach: in-place algorithm
+  // Runtime: 20 ms
+  // Memory Usage: 9.6 MB
   vector<int> sortArrayByParity1(vector<int>& A) {
     size_t length = A.size();
 
@@ -42,6 +46,8 @@ public:
   }
 
   // additional memory usage
+  // Runtime: 20 ms
+  // Memory Usage: 10.4 MB
   vector<int> sortArrayByParity2(vector<int>& A) {
     vector<int> first;
     vector<int> last;
