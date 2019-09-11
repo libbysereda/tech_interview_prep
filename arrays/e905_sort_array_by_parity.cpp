@@ -12,8 +12,24 @@ static const auto io_sync_off = []() {
 
 class Solution {
 public:
-  // using two pointers approach: in-place algorithm
+  // using two pointers approach: in-place algorithm, swap only if necessary
   vector<int> sortArrayByParity(vector<int>& A) {
+    int l = 0, r  = A.size() - 1;
+
+    while (l < r) {
+      if (A[l] % 2 > A[r] % 2) {
+        swap(A[l++], A[r--]);
+      }
+
+      while (A[l] % 2 == 0 && l < r) l++;
+      while (A[r] % 2 == 1 && l < r) r--;
+    }
+
+    return A;
+  }
+
+  // using two pointers approach: in-place algorithm
+  vector<int> sortArrayByParity1(vector<int>& A) {
     size_t length = A.size();
 
     for (size_t slow, fast = 0; fast < length; fast++) {
@@ -26,7 +42,7 @@ public:
   }
 
   // additional memory usage
-  vector<int> sortArrayByParity1(vector<int>& A) {
+  vector<int> sortArrayByParity2(vector<int>& A) {
     vector<int> first;
     vector<int> last;
 
@@ -46,7 +62,7 @@ void testSolution() {
   Solution s;
   {
     vector<int> v = {3, 1, 2, 4};
-    vector<int> expected = {2, 4, 3, 1};
+    vector<int> expected = {4, 2, 1, 3};
     ASSERT_EQUAL(s.sortArrayByParity(v), expected);
   }
   {
@@ -71,12 +87,17 @@ void testSolution() {
   }
   {
     vector<int> v = {3, 2, 4};
-    vector<int> expected = {2, 4, 3};
+    vector<int> expected = {4, 2, 3};
     ASSERT_EQUAL(s.sortArrayByParity(v), expected);
   }
   {
     vector<int> v = {3, 1, 2};
     vector<int> expected = {2, 1, 3};
+    ASSERT_EQUAL(s.sortArrayByParity(v), expected);
+  }
+  {
+    vector<int> v = {2, 4, 3, 1};
+    vector<int> expected = {2, 4, 3, 1};
     ASSERT_EQUAL(s.sortArrayByParity(v), expected);
   }
 }
