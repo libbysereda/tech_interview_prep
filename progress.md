@@ -10,13 +10,15 @@ September 8: [26](https://leetcode.com/problems/remove-duplicates-from-sorted-ar
 
 ## Solved, but could do better
 September 9:
-- [905](https://leetcode.com/problems/sort-array-by-parity/solution/) - in-place algorithm using quicksort; Solved [ ]
+- [905](https://leetcode.com/problems/sort-array-by-parity/solution/) - in-place algorithm using quicksort; Solved [x]
 - [977](https://leetcode.com/problems/squares-of-a-sorted-array/) - O(n) algorithm using two pointers; Solved [ ]
 
 ## Solved with help
 September 10:
 - [905](https://leetcode.com/problems/sort-array-by-parity/solution/) - in-place algorithm using quicksort; Solved [x]
 
+September 11:
+- [905](https://leetcode.com/problems/sort-array-by-parity/solution/) - in-place algorithm, swap only when necessary; Solved [x]
 ## Can't solve
 
 ## Algorithms and Data Structures
