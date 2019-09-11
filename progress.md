@@ -6,7 +6,8 @@
 **Hard:** (goal: 60)
 
 ## Solved
-September 8: [26](https://leetcode.com/problems/remove-duplicates-from-sorted-array)
+September 8:
+- [26](https://leetcode.com/problems/remove-duplicates-from-sorted-array); Solved [x]
 
 ## Solved, but could do better
 September 9:
