@@ -29,7 +29,29 @@ public:
       }
     }
 
-    return equalSumCounter ==  3;
+    return equalSumCounter >=  3;
+  }
+
+  // better solution : don't counts the last part;
+  bool canThreePartsEqualSum1(vector<int>& A) {
+    int target = 0;
+    for (auto i : A) target+= i;
+
+    if (target % 3 != 0) return false;
+
+    target /= 3;
+
+    int equalSumCounter = 0, equalSum = 0;
+
+    for (int i = 0; i < A.size() && equalSumCounter < (target != 0 ? 2 : 3); i++) {
+      equalSum += A[i];
+      if (equalSum == target) {
+        equalSumCounter++;
+        equalSum = 0;
+      }
+    }
+
+    return equalSumCounter == (target != 0 ? 2 : 3);
   }
 };
 
@@ -52,6 +74,10 @@ void testSolution() {
   }
   {
     vector<int> v = {3,3,6,5,-2,2,5,1,-9,4};
+    ASSERT(s.canThreePartsEqualSum(v) == true);
+  }
+  {
+    vector<int> v = {1, -1, 1, -1, 1, -1, 1, -1};
     ASSERT(s.canThreePartsEqualSum(v) == true);
   }
 }
