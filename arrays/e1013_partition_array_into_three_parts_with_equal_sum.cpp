@@ -32,7 +32,7 @@ public:
     return equalSumCounter >=  3;
   }
 
-  // better solution : don't counts the last part;
+  // optimized solution: doesn't count the last equal sum;
   bool canThreePartsEqualSum1(vector<int>& A) {
     int target = 0;
     for (auto i : A) target+= i;
