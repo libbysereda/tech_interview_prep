@@ -1,5 +1,5 @@
 ## Total solved:
-**Easy:** 4 (goal: 120)
+**Easy:** 5 (goal: 120)
 
 **Medium:** (goal: 120)
 
