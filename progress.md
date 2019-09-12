@@ -11,6 +11,7 @@ September 8:
 
 September 12:
 - [485 - find max consecutive ones](https://leetcode.com/problems/max-consecutive-ones/); Solved [x]
+- [1013 - partition array into three parts with equal sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/); Solved [x]
 
 ## Solved, but could do better
 September 9:
