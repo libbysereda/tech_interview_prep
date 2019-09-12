@@ -8,6 +8,7 @@
 ## Solved
 September 8:
 - [26 - remove duplicates from sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array); Solved [x]
+
 September 12:
 - [485 - find max consecutive ones](https://leetcode.com/problems/max-consecutive-ones/); Solved [x]
 
